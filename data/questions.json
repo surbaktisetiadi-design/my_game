@@ -1,0 +1,162 @@
+[
+  {
+    "id": "q1",
+    "category": "Sekolah",
+    "question": "Apa yang paling sering dilupakan siswa saat datang ke sekolah?",
+    "answers": [
+      {
+        "text": "Buku PR / Catatan",
+        "points": 40,
+        "rank": 1
+      },
+      {
+        "text": "Topi / Dasi Upacara",
+        "points": 25,
+        "rank": 2
+      },
+      {
+        "text": "Pensil / Pulpen",
+        "points": 15,
+        "rank": 3
+      },
+      {
+        "text": "Uang Saku",
+        "points": 12,
+        "rank": 4
+      },
+      {
+        "text": "Kartu Pelajar / Nametag",
+        "points": 8,
+        "rank": 5
+      }
+    ]
+  },
+  {
+    "id": "q2",
+    "category": "Sekolah",
+    "question": "Aktivitas apa yang paling favorit dilakukan siswa saat jam istirahat?",
+    "answers": [
+      {
+        "text": "Makan di Kantin",
+        "points": 45,
+        "rank": 1
+      },
+      {
+        "text": "Ngobrol di Kelas",
+        "points": 25,
+        "rank": 2
+      },
+      {
+        "text": "Bermain HP / Game",
+        "points": 15,
+        "rank": 3
+      },
+      {
+        "text": "Main Olahraga / Lapangan",
+        "points": 10,
+        "rank": 4
+      },
+      {
+        "text": "Pergi ke Perpustakaan",
+        "points": 5,
+        "rank": 5
+      }
+    ]
+  },
+  {
+    "id": "q3",
+    "category": "Kehidupan",
+    "question": "Alasan paling umum siswa terlambat masuk sekolah?",
+    "answers": [
+      {
+        "text": "Macet di Jalan",
+        "points": 38,
+        "rank": 1
+      },
+      {
+        "text": "Bangun Kesorean",
+        "points": 32,
+        "rank": 2
+      },
+      {
+        "text": "Hujan Deras",
+        "points": 14,
+        "rank": 3
+      },
+      {
+        "text": "Kendaraan Mogok / Ban Bocor",
+        "points": 10,
+        "rank": 4
+      },
+      {
+        "text": "Antri Kamar Mandi",
+        "points": 6,
+        "rank": 5
+      }
+    ]
+  },
+  {
+    "id": "q4",
+    "category": "Pengetahuan Umum",
+    "question": "Benda apa yang selalu ada di dalam tas seorang murid?",
+    "answers": [
+      {
+        "text": "Buku Tulis",
+        "points": 35,
+        "rank": 1
+      },
+      {
+        "text": "Kotak Pensil / Pulpen",
+        "points": 30,
+        "rank": 2
+      },
+      {
+        "text": "Botol Minum / Tumbler",
+        "points": 18,
+        "rank": 3
+      },
+      {
+        "text": "Tempat Makan / Bekal",
+        "points": 10,
+        "rank": 4
+      },
+      {
+        "text": "Tisu / Hand Sanitizer",
+        "points": 7,
+        "rank": 5
+      }
+    ]
+  },
+  {
+    "id": "q5",
+    "category": "Kuliner Sekolah",
+    "question": "Makanan favorit yang dijual di kantin sekolah?",
+    "answers": [
+      {
+        "text": "Bakso / Mie Ayam",
+        "points": 40,
+        "rank": 1
+      },
+      {
+        "text": "Gorengan",
+        "points": 25,
+        "rank": 2
+      },
+      {
+        "text": "Nasi Goreng / Batagor",
+        "points": 18,
+        "rank": 3
+      },
+      {
+        "text": "Es Lilin / Es Teh",
+        "points": 12,
+        "rank": 4
+      },
+      {
+        "text": "Cilok / Cireng",
+        "points": 5,
+        "rank": 5
+      }
+    ]
+  }
+]
