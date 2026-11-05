@@ -1,0 +1,7 @@
+/* Print Layout */
+@media print {
+  body { background: #FFF !important; color: #000 !important; font-size: 12pt; }
+  .app-header, .btn, .no-print { display: none !important; }
+  .container { width: 100% !important; margin: 0 !important; padding: 0 !important; }
+  .table th, .table td { border: 1px solid #000 !important; padding: 8px !important; color: #000 !important; }
+}
