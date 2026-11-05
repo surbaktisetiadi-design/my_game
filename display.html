@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Layar Proyektor – Family 100 V5</title>
+  <link rel="stylesheet" href="css/display.css">
+</head>
+<body class="display-body">
+  <!-- Header Info -->
+  <div class="display-header">
+    <div class="school-name" id="dispSchool">SMAN 1 BANGKO PUSAKO</div>
+    <div class="event-title" id="dispEvent">LOMBA FAMILY 100 SCHOOL QUIZ</div>
+  </div>
+
+  <!-- Question Banner -->
+  <div class="question-banner" id="dispQuestion">
+    MENUNGGU PERTANDINGAN DIMULAI...
+  </div>
+
+  <!-- Scores, Pot Bar & Timer Widget -->
+  <div class="scores-pot-container">
+    <div class="team-score-card" id="cardTeamA">
+      <div class="team-name" id="dispTeamAName">TIM A</div>
+      <div class="team-score-val" id="dispTeamAScore">0</div>
+      <div id="dispStrikesA" style="margin-top: 4px; color: var(--strike-red); font-size: 20px; font-weight: 900;"></div>
+    </div>
+
+    <div class="pot-box">
+      <div class="pot-label">POT POIN RONDE</div>
+      <div class="pot-val" id="dispPotVal">0</div>
+    </div>
+
+    <div class="timer-box" id="displayTimerBox">
+      <div class="timer-label">TIMER</div>
+      <div class="timer-val" id="dispTimerVal">15</div>
+    </div>
+
+    <div class="team-score-card" id="cardTeamB">
+      <div class="team-name" id="dispTeamBName">TIM B</div>
+      <div class="team-score-val" id="dispTeamBScore">0</div>
+      <div id="dispStrikesB" style="margin-top: 4px; color: var(--strike-red); font-size: 20px; font-weight: 900;"></div>
+    </div>
+  </div>
+
+  <!-- Main Survey Board (8 Fixed Vertical Slots Stacked Top-to-Bottom) -->
+  <div class="survey-board-container" id="dispBoardContainer">
+    <!-- 8 Vertical Slots built by JS -->
+  </div>
+
+  <!-- Status Bar Footer -->
+  <div class="status-msg-bar" id="dispStatusMsg">
+    SIAP UNTUK DUEL PEMBUKA
+  </div>
+
+  <!-- Strike Full Screen Popup Visual -->
+  <div class="strike-overlay" id="strikeOverlay">
+    <div class="strike-marks" id="strikeMarksContainer"></div>
+    <div class="strike-label" id="strikeTextLabel">STRIKE!</div>
+  </div>
+
+  <!-- Winner Celebration Overlay -->
+  <div class="winner-overlay" id="winnerOverlay">
+    <div class="trophy-icon">🏆</div>
+    <div class="winner-title">PEMENANG PERTANDINGAN</div>
+    <div class="winner-name-badge" id="winTeamName">TIM A</div>
+    
+    <div class="final-scores-grid">
+      <div class="winner-score-card winner-first" id="winCardA">
+        <h3 id="winLabelTeamA" style="color: var(--teal-glow); font-size: 22px;">TIM A</h3>
+        <div id="winScoreTeamA" style="font-size: 42px; font-weight: 900; color: #FFF; margin-top: 6px;">0</div>
+        <div style="font-size: 13px; color: var(--gold); margin-top: 4px; font-weight: 700;">TOTAL SKOR</div>
+      </div>
+      <div class="winner-score-card" id="winCardB">
+        <h3 id="winLabelTeamB" style="color: var(--teal-glow); font-size: 22px;">TIM B</h3>
+        <div id="winScoreTeamB" style="font-size: 42px; font-weight: 900; color: #FFF; margin-top: 6px;">0</div>
+        <div style="font-size: 13px; color: var(--gold); margin-top: 4px; font-weight: 700;">TOTAL SKOR</div>
+      </div>
+    </div>
+
+    <p style="font-size: 18px; color: #FEF08A; font-weight: 700;" id="winMessageText">Selamat kepada pemenang LOMBA FAMILY 100 SCHOOL QUIZ!</p>
+  </div>
+
+  <script src="js/db.js"></script>
+  <script src="js/sound.js"></script>
+  <script src="js/game-engine.js"></script>
+  <script src="js/display.js"></script>
+</body>
+</html>
